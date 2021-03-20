@@ -159,7 +159,7 @@ img{
   top: 2rem;
   background-color: var(--first-color);
 }
-.nav__logo{
+.navlogo{
   color: var(--second-color);
 }
 .nav__toggle{
@@ -416,6 +416,10 @@ img{
   .home__img{
     width: 457px;
     bottom: 15%;
+  }
+
+  .home__img img{
+        border-radius: 20px;
   }
 
   .about__container, .skills__container{
